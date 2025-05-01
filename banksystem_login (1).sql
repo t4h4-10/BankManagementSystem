@@ -1,0 +1,17 @@
+
+
+DROP TABLE IF EXISTS `login`;
+
+CREATE TABLE `login` (
+  `form_no` varchar(30) DEFAULT NULL,
+  `card_number` varchar(30) DEFAULT NULL,
+  `pin` varchar(30) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+
+LOCK TABLES `login` WRITE;
+
+INSERT INTO `login` VALUES ('','2510074015709259','8827'),('null','2510073921210615','7797'),(' 3977','2510073933118770','7274');
+
+UNLOCK TABLES;
+
